@@ -4,18 +4,58 @@
     <meta charset="UTF-8">
     <title>Early 2000s Website</title>
     <style>
+         {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 body {
 background-image: url('https://i.pinimg.com/736x/b0/7d/f5/b07df55b2130f451650e204e720f23bd.jpg');
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
 }
+  header, main, footer {
+            padding: 20px;
+            margin: 10px;
+            border-radius: 8px;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+        }
+
+        main {
+            background-color: #ffffff;
+            min-height: 300px; /* Ensures visible height */
+            border: 2px solid #ccc;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+        }
+
+        /* Responsive design */
+        @media (max-width: 600px) {
+            main {
+                min-height: 200px;
+            }
+        }      
 </style>
 </head>
 <body>
-    
-    <div id="footer">
-            &copy; 2026 Early 2000s Web. All rights reserved.
-    </div>    
+    <header>
+        
+    </header>
+    <main>
+        
+    </main>
+    <footer>
+        &copy; 2026 Early 2000s Web. All rights reserved.
+    </footer>
 </body>
 </html>
